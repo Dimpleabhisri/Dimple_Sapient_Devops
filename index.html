@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi's Foods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#order">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content">
+        <h1>Welcome to Abhi's Foods</h1>
+        <p>At Abhi's Foods, we bring you the most delicious and fresh meals crafted with love and care. Whether you're dining in or ordering out, we guarantee a delightful experience.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p>Abhi's Foods started with a passion for culinary excellence and a desire to share the joy of great food with the community. Our menu is diverse, offering something for everyone.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="order" class="content">
+        <h2>Order Now</h2>
+        <p>Ready to enjoy our delicious food? Place your order now!</p>
+        <!-- Ordering form or link can be added here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abhi's Foods. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
